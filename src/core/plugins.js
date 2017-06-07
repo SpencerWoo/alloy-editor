@@ -38,6 +38,7 @@
      * Overrides CKEDITOR.plugins.load method so we can extend the lifecycle methods of
      * the loaded plugins to add some metainformation about the plugin being processed
      *
+     * @memberof CKEDITOR.plugins
      * @static
      * @method load
 	 * @param {String/Array} names The name of the resource to load. It may be a
